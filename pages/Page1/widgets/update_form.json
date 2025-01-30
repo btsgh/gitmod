@@ -214,6 +214,15 @@
       "key": "schema.__root_schema__.children.release_date.accentColor"
     },
     {
+      "key": "schema.__root_schema__.children.genres.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.genres.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.genres.accentColor"
+    },
+    {
       "key": "schema.__root_schema__.children.genres.children.__array_item__.children.name.borderRadius"
     },
     {
@@ -230,15 +239,6 @@
     },
     {
       "key": "schema.__root_schema__.children.genres.children.__array_item__.cellBorderRadius"
-    },
-    {
-      "key": "schema.__root_schema__.children.genres.defaultValue"
-    },
-    {
-      "key": "schema.__root_schema__.children.genres.borderRadius"
-    },
-    {
-      "key": "schema.__root_schema__.children.genres.accentColor"
     },
     {
       "key": "schema.__root_schema__.children.genres.cellBorderRadius"
@@ -337,7 +337,7 @@
                   "labelTextSize": "0.875rem",
                   "originalIdentifier": "id",
                   "position": 1,
-                  "sourceData": 878
+                  "sourceData": 18
                 },
                 "name": {
                   "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
@@ -358,7 +358,7 @@
                   "labelTextSize": "0.875rem",
                   "originalIdentifier": "name",
                   "position": 0,
-                  "sourceData": "Science Fiction"
+                  "sourceData": "Drama"
                 }
               },
               "dataType": "object",
@@ -373,8 +373,8 @@
               "originalIdentifier": "__array_item__",
               "position": -1,
               "sourceData": {
-                "id": 878,
-                "name": "Science Fiction"
+                "id": 18,
+                "name": "Drama"
               }
             }
           },
@@ -393,6 +393,10 @@
           "position": 10,
           "sourceData": [
             {
+              "id": 16,
+              "name": "Animation"
+            },
+            {
               "id": 28,
               "name": "Action"
             },
@@ -401,8 +405,12 @@
               "name": "Adventure"
             },
             {
-              "id": 878,
-              "name": "Science Fiction"
+              "id": 14,
+              "name": "Fantasy"
+            },
+            {
+              "id": 18,
+              "name": "Drama"
             }
           ]
         },
@@ -519,7 +527,7 @@
           "labelTextSize": "0.875rem",
           "originalIdentifier": "revenue",
           "position": 7,
-          "sourceData": 435954000
+          "sourceData": 475000000
         },
         "status": {
           "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
@@ -607,7 +615,7 @@
           "labelTextSize": "0.875rem",
           "originalIdentifier": "vote_average",
           "position": 4,
-          "sourceData": 8.1
+          "sourceData": 8.4
         },
         "vote_count": {
           "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
@@ -629,7 +637,7 @@
           "labelTextSize": "0.875rem",
           "originalIdentifier": "vote_count",
           "position": 7,
-          "sourceData": 5794
+          "sourceData": 1109
         }
       },
       "dataType": "object",
