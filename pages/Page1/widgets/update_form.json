@@ -337,7 +337,7 @@
                   "labelTextSize": "0.875rem",
                   "originalIdentifier": "id",
                   "position": 1,
-                  "sourceData": 18
+                  "sourceData": 878
                 },
                 "name": {
                   "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
@@ -358,7 +358,7 @@
                   "labelTextSize": "0.875rem",
                   "originalIdentifier": "name",
                   "position": 0,
-                  "sourceData": "Drama"
+                  "sourceData": "Science Fiction"
                 }
               },
               "dataType": "object",
@@ -373,8 +373,8 @@
               "originalIdentifier": "__array_item__",
               "position": -1,
               "sourceData": {
-                "id": 18,
-                "name": "Drama"
+                "id": 878,
+                "name": "Science Fiction"
               }
             }
           },
@@ -393,10 +393,6 @@
           "position": 10,
           "sourceData": [
             {
-              "id": 16,
-              "name": "Animation"
-            },
-            {
               "id": 28,
               "name": "Action"
             },
@@ -405,12 +401,8 @@
               "name": "Adventure"
             },
             {
-              "id": 14,
-              "name": "Fantasy"
-            },
-            {
-              "id": 18,
-              "name": "Drama"
+              "id": 878,
+              "name": "Science Fiction"
             }
           ]
         },
@@ -527,7 +519,7 @@
           "labelTextSize": "0.875rem",
           "originalIdentifier": "revenue",
           "position": 7,
-          "sourceData": 475000000
+          "sourceData": 435954000
         },
         "status": {
           "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
@@ -615,7 +607,7 @@
           "labelTextSize": "0.875rem",
           "originalIdentifier": "vote_average",
           "position": 4,
-          "sourceData": 8.4
+          "sourceData": 8.1
         },
         "vote_count": {
           "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
@@ -637,7 +629,7 @@
           "labelTextSize": "0.875rem",
           "originalIdentifier": "vote_count",
           "position": 7,
-          "sourceData": 1109
+          "sourceData": 5794
         }
       },
       "dataType": "object",
