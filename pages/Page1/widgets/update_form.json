@@ -287,35 +287,21 @@
           "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
           "boxShadow": "none",
           "children": {},
-          "dataType": "array",
+          "dataType": "string",
           "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.genres))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
-          "fieldType": "Multiselect",
+          "fieldType": "Text Input",
+          "iconAlign": "left",
           "identifier": "genres",
           "isCustomField": false,
           "isDisabled": false,
-          "isFilterable": false,
           "isRequired": false,
+          "isSpellCheck": false,
           "isVisible": true,
           "label": "Genres",
           "labelTextSize": "0.875rem",
-          "options": [
-            {
-              "label": "Blue",
-              "value": "BLUE"
-            },
-            {
-              "label": "Green",
-              "value": "GREEN"
-            },
-            {
-              "label": "Red",
-              "value": "RED"
-            }
-          ],
           "originalIdentifier": "genres",
           "position": 10,
-          "serverSideFiltering": false,
-          "sourceData": []
+          "sourceData": "12"
         },
         "homepage": {
           "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
