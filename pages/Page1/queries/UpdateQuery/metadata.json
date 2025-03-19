@@ -15,6 +15,9 @@
             "data": "10"
           }
         },
+        "body": {
+          "data": "{\n  \"update\": \"movies\",\n  \"updates\": [{\n    \"q\": { _id: ObjectId('{{data_table.selectedRow._id}}') },\n    \"u\": {\n  $set:{{update_form.formData}}\n},\n    \"multi\": false\n}]\n}\n"
+        },
         "collection": {
           "componentData": "movies",
           "data": "movies",
@@ -107,6 +110,11 @@
       "name": "Movies",
       "pluginId": "mongo-plugin"
     },
+    "dynamicBindingPathList": [
+      {
+        "key": "formData.body.data"
+      }
+    ],
     "executeOnLoad": false,
     "name": "UpdateQuery",
     "pageId": "Page1",
