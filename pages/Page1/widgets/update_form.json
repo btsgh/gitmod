@@ -214,6 +214,15 @@
       "key": "schema.__root_schema__.children.release_date.accentColor"
     },
     {
+      "key": "schema.__root_schema__.children.genres.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.genres.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.genres.accentColor"
+    },
+    {
       "key": "schema.__root_schema__.children.genres.children.__array_item__.children.name.borderRadius"
     },
     {
@@ -230,15 +239,6 @@
     },
     {
       "key": "schema.__root_schema__.children.genres.children.__array_item__.cellBorderRadius"
-    },
-    {
-      "key": "schema.__root_schema__.children.genres.defaultValue"
-    },
-    {
-      "key": "schema.__root_schema__.children.genres.borderRadius"
-    },
-    {
-      "key": "schema.__root_schema__.children.genres.accentColor"
     },
     {
       "key": "schema.__root_schema__.children.genres.cellBorderRadius"
@@ -337,7 +337,7 @@
                   "labelTextSize": "0.875rem",
                   "originalIdentifier": "id",
                   "position": 1,
-                  "sourceData": 12
+                  "sourceData": 878
                 },
                 "name": {
                   "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
@@ -358,7 +358,7 @@
                   "labelTextSize": "0.875rem",
                   "originalIdentifier": "name",
                   "position": 0,
-                  "sourceData": "Adventure"
+                  "sourceData": "Science Fiction"
                 }
               },
               "dataType": "object",
@@ -373,8 +373,8 @@
               "originalIdentifier": "__array_item__",
               "position": -1,
               "sourceData": {
-                "id": 12,
-                "name": "Adventure"
+                "id": 878,
+                "name": "Science Fiction"
               }
             }
           },
@@ -397,12 +397,12 @@
               "name": "Action"
             },
             {
-              "id": 14,
-              "name": "Fantasy"
-            },
-            {
               "id": 12,
               "name": "Adventure"
+            },
+            {
+              "id": 878,
+              "name": "Science Fiction"
             }
           ]
         },
