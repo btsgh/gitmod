@@ -49,6 +49,7 @@
     "executeOnLoad": false,
     "name": "InsertQuery",
     "pageId": "Page1",
+    "runBehaviour": "MANUAL",
     "userSetOnLoad": false
   }
 }

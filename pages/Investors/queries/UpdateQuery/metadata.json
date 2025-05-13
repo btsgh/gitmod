@@ -137,6 +137,7 @@
     "executeOnLoad": false,
     "name": "UpdateQuery",
     "pageId": "Investors",
+    "runBehaviour": "MANUAL",
     "userSetOnLoad": false
   }
 }

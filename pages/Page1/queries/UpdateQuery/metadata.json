@@ -118,6 +118,7 @@
     "executeOnLoad": false,
     "name": "UpdateQuery",
     "pageId": "Page1",
+    "runBehaviour": "MANUAL",
     "userSetOnLoad": false
   }
 }

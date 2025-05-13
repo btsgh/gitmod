@@ -138,6 +138,7 @@
     "executeOnLoad": false,
     "name": "InsertQuery",
     "pageId": "Investors",
+    "runBehaviour": "MANUAL",
     "userSetOnLoad": false
   }
 }

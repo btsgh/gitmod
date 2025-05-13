@@ -49,6 +49,7 @@
     "executeOnLoad": false,
     "name": "DeleteQuery",
     "pageId": "Page1",
+    "runBehaviour": "MANUAL",
     "userSetOnLoad": false
   }
 }

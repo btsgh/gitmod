@@ -26,6 +26,7 @@
     "fullyQualifiedName": "utils.createInvestor",
     "name": "createInvestor",
     "pageId": "Investors",
+    "runBehaviour": "MANUAL",
     "userSetOnLoad": false
   }
 }
