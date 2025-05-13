@@ -158,6 +158,7 @@
     "executeOnLoad": true,
     "name": "SelectQuery",
     "pageId": "Investors",
+    "runBehaviour": "ON_PAGE_LOAD",
     "userSetOnLoad": true
   }
 }
