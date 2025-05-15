@@ -134,7 +134,6 @@
       "pluginId": "google-sheets-plugin"
     },
     "dynamicBindingPathList": [],
-    "executeOnLoad": false,
     "name": "UpdateQuery",
     "pageId": "Investors",
     "runBehaviour": "MANUAL",

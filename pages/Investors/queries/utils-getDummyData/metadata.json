@@ -22,7 +22,6 @@
         "key": "body"
       }
     ],
-    "executeOnLoad": false,
     "fullyQualifiedName": "utils.getDummyData",
     "name": "getDummyData",
     "pageId": "Investors",

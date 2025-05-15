@@ -22,7 +22,6 @@
         "key": "body"
       }
     ],
-    "executeOnLoad": false,
     "fullyQualifiedName": "utils.createInvestor",
     "name": "createInvestor",
     "pageId": "Investors",
