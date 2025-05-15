@@ -46,9 +46,9 @@
       "name": "Movies",
       "pluginId": "mongo-plugin"
     },
-    "executeOnLoad": false,
     "name": "DeleteQuery",
     "pageId": "Page1",
+    "runBehaviour": "MANUAL",
     "userSetOnLoad": false
   }
 }

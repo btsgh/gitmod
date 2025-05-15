@@ -22,10 +22,10 @@
         "key": "body"
       }
     ],
-    "executeOnLoad": false,
     "fullyQualifiedName": "utils.updateInvestorDetails",
     "name": "updateInvestorDetails",
     "pageId": "Investors",
+    "runBehaviour": "MANUAL",
     "userSetOnLoad": false
   }
 }

@@ -22,10 +22,10 @@
         "key": "body"
       }
     ],
-    "executeOnLoad": true,
     "fullyQualifiedName": "utils.getInvestors",
     "name": "getInvestors",
     "pageId": "Investors",
+    "runBehaviour": "ON_PAGE_LOAD",
     "userSetOnLoad": false
   }
 }

@@ -132,9 +132,9 @@
       "pluginId": "google-sheets-plugin"
     },
     "dynamicBindingPathList": [],
-    "executeOnLoad": false,
     "name": "DeleteQuery",
     "pageId": "Investors",
+    "runBehaviour": "MANUAL",
     "userSetOnLoad": false
   }
 }
