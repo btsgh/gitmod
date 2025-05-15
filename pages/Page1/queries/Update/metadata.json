@@ -29,7 +29,6 @@
         "key": "formData.body.data"
       }
     ],
-    "executeOnLoad": false,
     "name": "Update",
     "pageId": "Page1",
     "runBehaviour": "MANUAL",
